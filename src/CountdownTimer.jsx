@@ -58,7 +58,7 @@ const CountdownTimer = ({fecha}) => {
         onChange={handleDateChange}
         style={{ margin: "10px" }}
       /> */}
-      {targetDate && (
+      {targetDate  && targetDate > new Date() && (
         <div>
           
           <p>

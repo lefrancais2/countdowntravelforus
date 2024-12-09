@@ -11,6 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <h1>Cuenta Regresiva</h1>
       <h2>Tiempo Restante</h2>
     </div>
+    <CountdownTimer fecha="2025-03-09T17:00"/>
     <CountdownTimer fecha="2025-02-13T18:40"/>
     <CountdownTimer fecha="2025-01-31T23:59"/>
     <CountdownTimer fecha="2024-12-13T18:40"/>
